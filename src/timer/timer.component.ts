@@ -10,9 +10,6 @@ export class TimerComponent implements OnInit {
   isStart: boolean = false;
   timerInterval: any;
 
-  timer: string = '';
-  seconds = 0;
-
   action = '-';
   round = 0;
   second = 5;
